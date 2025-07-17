@@ -15,9 +15,9 @@ spec:
   - https://github.com/christianh814/simple-go
   roles:
   - name: custom-project-role
-    description: The "custom-project-role" will be applied to "christian"
+    description: The "custom-project-role" will be applied to "zairigimadkubectl create -f projects/proj"
     groups:
-    - christian
+    - zairigimad
     policies:
     - p, proj:workloads:custom-project-role, projects, get, workloads, allow
     - p, proj:workloads:custom-project-role, applications, *, workloads/*, allow

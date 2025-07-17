@@ -11,7 +11,7 @@ spec:
     path: workloads/cert-manager/
     repoURL: https://github.com/zairigimad/argo-masterclass
     targetRevision: main
-  project: default
+  project: cluster-addons
   syncPolicy:
     automated:
       prune: true
